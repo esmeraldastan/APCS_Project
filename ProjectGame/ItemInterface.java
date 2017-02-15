@@ -6,7 +6,7 @@
  * @version 1.2
  */
 import java.util.ArrayList;
-public abstract class Item implements ItemInterface
+public interface ItemInterface
 {
     /**
      * This method gets the name of an item
