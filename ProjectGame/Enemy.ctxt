@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=hp
+comment0.target=Enemy(int)
+comment1.params=dmg
+comment1.target=void\ damageTaken(int)
+comment2.params=
+comment2.target=int\ dmgDone()
+numComments=3

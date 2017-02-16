@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=hp\ dmg
+comment0.target=PoisonPlant(int,\ int)
+comment1.params=dmg
+comment1.target=void\ damageTaken(int)
+comment2.params=target
+comment2.target=void\ strike(Enemy)
+numComments=3

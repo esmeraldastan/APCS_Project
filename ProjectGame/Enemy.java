@@ -16,7 +16,7 @@ public abstract class Enemy{
     public Enemy(int hp){//hp of the Enemy
         hitpoints = hp;
     }
-    public void takeDamage(int dmg){
+    public void damageTaken(int dmg){
         hitpoints -= dmg;
     }
     public int dmgDone(){
