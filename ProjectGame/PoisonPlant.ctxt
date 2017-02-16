@@ -1,8 +1,9 @@
 #BlueJ class context
 comment0.params=hp\ dmg
 comment0.target=PoisonPlant(int,\ int)
-comment1.params=dmg
-comment1.target=void\ damageTaken(int)
-comment2.params=target
-comment2.target=void\ strike(Enemy)
+comment1.params=target
+comment1.target=void\ strike(Enemy)
+comment1.text=\r\n\ \r\n\ \ \ public\ void\ damageTaken(int\ dmg){\r\n\ \ \ \ \ \ \r\n\ \ \ \ \ \ //might\ print\ \r\n\ \ \ \ \ \ while\ (\ hp\ >\ 0){\r\n\ \ \ \ \ \ \ \ \ \ System.out.println("Down\ you\ go\!");\r\n\ \ \ \ \ \ \ \ \ \ super.damageTaken(dmg);//\ being\ called\ form\ super\ class\ \r\n\ \ \ \ \ \ \ \ \ \ if\ (hp\ \=\=\ 0){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ System.out.println("you\ have\ won");//very\ basic\ done\ first\ \r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ }\r\n\ \ }\r\n
+comment2.params=dmg
+comment2.target=void\ damageTaken2(int)
 numComments=3

@@ -13,7 +13,9 @@ public class PoisonPlant extends Enemy{
     super(hp); // hp being called form super class Enemy
     damage = dmg; 
   }
-  public void damageTaken(int dmg){
+ /**
+  * 
+   public void damageTaken(int dmg){
       
       //might print 
       while ( hp > 0){
@@ -24,7 +26,13 @@ public class PoisonPlant extends Enemy{
         }
     }
   }
+  */
   public void strike( Enemy target){
       target.damageTaken(damage); 
      }
+  // v2
+  public void damageTaken2(int dmg){
+       System.out.println("Down you go!");
+          super.damageTaken(dmg);// being called form super class 
+}
 }
