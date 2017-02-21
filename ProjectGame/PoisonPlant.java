@@ -13,7 +13,7 @@ public class PoisonPlant extends Enemy{
     super(hp); // hp being called form super class Enemy
     damage = dmg; 
   }
- /**
+  /**
   * 
    public void damageTaken(int dmg){
       
@@ -33,7 +33,7 @@ public class PoisonPlant extends Enemy{
   // v2
   public void damageTaken(int dmg){
        System.out.println("Down you go!");
-       System.out.println(hitpoints - damage);
+       System.out.println(hitpoints-damage);//current health after taking damage
        super.damageTaken(dmg);// being called form super class 
-}
+  }
 }
