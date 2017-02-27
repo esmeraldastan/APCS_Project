@@ -5,6 +5,7 @@
  * @author Esmeralda
  * @version 2.27.17
  */
-public class LeatherJ{
+public class LeatherJ extends Armor
+{
    
 }
