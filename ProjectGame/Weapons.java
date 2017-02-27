@@ -5,6 +5,6 @@
  * @author Esmeralda Lopez
  * @version 2.22.17
  */
-public abstract class Weapons extends Item{
+public abstract class Weapons extends Item implements WeaponInterface{
     
 }

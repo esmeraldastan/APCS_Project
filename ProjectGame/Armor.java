@@ -5,7 +5,7 @@
  * @author (your name here)
  * @version (version number or date here)
  */
-public abstract class Armor
+public abstract class Armor extends Item implements DefenseCommands
 {
     // instance variables - replace the example below with your own
     private int x;
