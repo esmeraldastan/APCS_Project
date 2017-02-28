@@ -7,6 +7,7 @@
  */
 public class PoisonPlant extends Enemy{
     int damage;
+    int hp;
     //int hp;// hp of 500
    // int dmg;// dmg of 150
   public PoisonPlant(int hp, int dmg){
