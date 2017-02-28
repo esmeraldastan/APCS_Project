@@ -13,7 +13,11 @@ public interface WeaponInterface
      * 
      * @return        Returns amount of damage successfully done to the opponent 
      */
+    
+    public void attack(int dmg){
+    
     int attack();
+}
     /**
      * Parry Attack Method
      * 
