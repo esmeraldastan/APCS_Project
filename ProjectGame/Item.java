@@ -8,11 +8,12 @@
 import java.util.ArrayList;
 public abstract class Item implements ItemInterface{
     // name and value of an item 
-    public String name;
+    
     public int value;
     
-    public Item(Item i){
-        this.name = i.name;
+    public Item(Item i ){
+        this.super(String getName) = i.getName
+        super(String getName);
         this.value = i.value;
     }
     
