@@ -15,9 +15,8 @@ public interface WeaponInterface
      */
     
     public void attack(int dmg){
-    
-    int attack();
-}
+      int attack();
+    }
     /**
      * Parry Attack Method
      * 
