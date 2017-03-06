@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public abstract class Item implements ItemInterface{
     // name and value of an item 
    
-    int value;
+   
     public Item(Item i){
         String name = i.getName();
         }

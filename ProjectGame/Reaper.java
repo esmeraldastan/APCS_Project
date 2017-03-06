@@ -6,9 +6,9 @@
  * @version 2.16.17
  */
 public class Reaper extends Enemy{
-   int damage;
+   int damage = 500;
    
-   public Reaper(int hp, int dmg){
+   public Reaper(){//int hp, int dmg
        super(hp);
        damage = dmg;
     }
