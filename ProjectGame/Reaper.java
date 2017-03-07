@@ -7,10 +7,11 @@
  */
 public class Reaper extends Enemy{
    int damage = 500;
+   int hitpoints = 1000;
    
-   public Reaper(){//int hp, int dmg
-       super(hp);
-       damage = dmg;
+   public Reaper( int hitpoints, int damage){//int hp, int dmg
+       //super(hp);
+       //damage = dmg;
     }
    public void takeDown(Enemy target){
         target.damageTaken(damage);

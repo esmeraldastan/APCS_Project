@@ -11,8 +11,9 @@ public abstract class Item implements ItemInterface{
    
    
     public Item(Item i){
+       
         String name = i.getName();
-        }
+    }
  
     
     //Implemented in your own way

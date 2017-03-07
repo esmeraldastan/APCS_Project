@@ -5,7 +5,7 @@
  * @author Esmeralda
  * @version 2.27.17
  */
-public class Sword extends Weapons
-{
+public class Sword extends Weapons{
+    String name = "Sword";
     
 }
