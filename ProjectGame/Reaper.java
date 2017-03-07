@@ -7,31 +7,25 @@
  */
 public class Reaper extends Enemy{
    int damage = 500;
-   int hitpoints = 1000;
    
-   public Reaper( int hitpoints, int damage){//int hp, int dmg
-       //super(hp);
-       //damage = dmg;
+   public Reaper(int dmg){//int hp, int dmg
+       super(1000); 
+       damage = dmg;
     }
+    //target
    public void takeDown(Enemy target){
         target.damageTaken(damage);
     }
    public void damageTaken(int dmg){
        while (hitpoints >0){
            
-        System.out.println("RRRRrrrrrr");
-        System.out.println(hitpoints-damage);
-        if (hitpoints <= 0){
+   
+        if (hitpoints == 0){
+            System.out.println("RRRRrrrrrr");
+            System.out.println(hitpoints-damage);
             System.out.println("Great you won!");
         }
         super.damageTaken(dmg);
     }
    }
 } 
-/**
- * public void damageTaken(int damage){
-        System.out.println("RRRRrrrrrr");
-        System.out.println(hitpoints-damage);
-        super.damageTaken(dmg);
-    }
- */

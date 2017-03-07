@@ -1,6 +1,6 @@
 #BlueJ class context
-comment0.params=hp\ dmg
-comment0.target=Reaper(int,\ int)
+comment0.params=dmg
+comment0.target=Reaper(int)
 comment1.params=target
 comment1.target=void\ takeDown(Enemy)
 comment2.params=dmg

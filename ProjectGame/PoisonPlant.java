@@ -6,36 +6,26 @@
  * @version 2.16.17
  */
 public class PoisonPlant extends Enemy{
-    int damage;
-    int hp;
-    //int hp;// hp of 500
-   // int dmg;// dmg of 150
-  public PoisonPlant(int hp, int dmg){
-    super(hp); // hp being called form super class Enemy
+  int damage = 250;
+  public PoisonPlant(int dmg){
+    super(500);
     damage = dmg; 
     
   }
-  /**
-  * 
-   public void damageTaken(int dmg){
-      
-      //might print 
-      while ( hp > 0){
-          System.out.println("Down you go!");
-          super.damageTaken(dmg);// being called form super class 
-          if (hp == 0){
-              System.out.println("you have won");//very basic done first 
-        }
-    }
-  }
-  */
+  //target
   public void strike( Enemy target){
       target.damageTaken(damage); 
      }
   // v2
-  public void damageTaken(int dmg){
-        System.out.println("Down you go!");
-       System.out.println(hitpoints-damage);//current health after taking damage
-       super.damageTaken(dmg);// being called form super class 
+   public void damageTaken(int dmg){
+       while(hitpoints>0){
+        System.out.println("Death is in the bloom!");
+        System.out.println(hitpoints-damage);//current health after taking damage
+        if (hitpoints == 0){
+            System.out.println("I'm not a harmless flower");
+            
+        }
+        super.damageTaken(dmg);// being called form super class 
+      }
   }
 }
