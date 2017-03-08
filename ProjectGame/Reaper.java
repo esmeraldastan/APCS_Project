@@ -17,15 +17,13 @@ public class Reaper extends Enemy{
         target.damageTaken(damage);
     }
    public void damageTaken(int dmg){
-       while (hitpoints >0){
-           
+       //while (hitpoints >0){
+       System.out.println("RRRRrrrrrr");
+       System.out.println(hitpoints-damage);   
    
-        if (hitpoints == 0){
-            System.out.println("RRRRrrrrrr");
-            System.out.println(hitpoints-damage);
+       if (hitpoints-damage <= 0){
             System.out.println("Great you won!");
-        }
-        super.damageTaken(dmg);
-    }
+       }
+       super.damageTaken(dmg);
+     }
    }
-} 
