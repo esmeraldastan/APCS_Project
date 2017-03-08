@@ -7,9 +7,8 @@
  */
 public class Reaper extends Enemy{
    int damage = 500;
-   
-   public Reaper(int dmg){//int hp, int dmg
-       super(1000); 
+   public Reaper(int dmg){
+       super(1000);//health
        damage = dmg;
     }
     //target
@@ -18,11 +17,12 @@ public class Reaper extends Enemy{
     }
    public void damageTaken(int dmg){
        //while (hitpoints >0){
+       //method for later use
+       
        System.out.println("RRRRrrrrrr");
        System.out.println(hitpoints-damage);   
-   
        if (hitpoints-damage <= 0){
-            System.out.println("Great you won!");
+            System.out.println("Your soul will be mine!!!");
        }
        super.damageTaken(dmg);
      }
