@@ -1,8 +1,8 @@
 #BlueJ class context
-comment0.params=hp\ dmg
-comment0.target=CreatureOfNight(int,\ int)
-comment1.params=dmg
-comment1.target=void\ damageTaken(int)
-comment2.params=target
-comment2.target=void\ target(Enemy)
+comment0.params=dmg
+comment0.target=CreatureOfNight(int)
+comment1.params=target
+comment1.target=void\ target(Enemy)
+comment2.params=dmg
+comment2.target=void\ damageTaken(int)
 numComments=3

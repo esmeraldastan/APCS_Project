@@ -20,7 +20,7 @@ public class CreatureOfNight extends Enemy{
         System.out.println("You are going nowhere!");
         System.out.println(hitpoints-damage);
         if(hitpoints - damage <= 0){
-            System.out.println("I will be back!);
+            System.out.println("I will be back!");
             super.damageTaken(dmg);
         }
     }

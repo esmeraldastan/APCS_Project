@@ -29,4 +29,3 @@ public class PoisonPlant extends Enemy{
       super.damageTaken(dmg);
    }
   }
-}
