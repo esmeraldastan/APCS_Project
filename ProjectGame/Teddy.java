@@ -2,32 +2,25 @@
 /**
  * Write a description of class Teddy here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Esmeralda Lopez
+ * @version 3.09.17
  */
-public class Teddy
-{
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Teddy
-     */
-    public Teddy()
-    {
-        // initialise instance variables
-        x = 0;
+public class Teddy extends Enemy{
+    int damage;
+    public Teddy(int dmg){
+        super(400);
+        damage = dmg;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public void attack(Enemy target){
+        target.damageTaken(damage);
     }
+    public void damageTaken(int dmg){
+        System.out.println("Lets play!");
+        System.out.println(hitpoints - damage);
+        if (hitpoints - damage <= 0){
+            System.out.println("I'll be back to play.");
+        }
+        super.damageTaken(dmg);
+    }
+ 
 }
