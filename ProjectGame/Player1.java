@@ -6,9 +6,11 @@
  * @version 3.06.17
  */
 public class Player1{
+    String name = "ChaseRekz";
     int hp = 1000;
     int damage = 50;
     public Player1(){
+        System.out.println(name);
         System.out.println("HP: " + hp);
         System.out.println("Basic damage: "+ damage);
        
