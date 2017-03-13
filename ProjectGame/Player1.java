@@ -10,7 +10,7 @@ public class Player1{
     int hp = 1000;
     int damage = 50;
     public Player1(){
-        System.out.println(name);
+        System.out.println("Player" + name);
         System.out.println("HP: " + hp);
         System.out.println("Basic damage: "+ damage);
        

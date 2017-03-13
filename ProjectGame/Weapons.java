@@ -8,7 +8,7 @@
 import java.util.ArrayList;
 import java.lang.Math;
 public abstract class Weapons extends Item implements WeaponInterface{
-    int hitpoints
+    int hitpoints;
     public Weapons(String name, int hp){
         super(name);
         hitpoints = hp;
@@ -18,11 +18,11 @@ public abstract class Weapons extends Item implements WeaponInterface{
     
 
     public int attack(){
-        return hitpoints
+        return hitpoints;
 
     }
     public boolean parry(){
-        double num = Math.random()*100
+        double num = Math.random()*100;
         if (num >= 50){
             return true;
         }
@@ -35,7 +35,7 @@ public abstract class Weapons extends Item implements WeaponInterface{
     }
     array.add(hitpoints);
     return array;
+    }
 }
-}
-        
-     }
+      
+     

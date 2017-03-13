@@ -7,9 +7,19 @@
  */
 public class Sword extends Weapons{
     int damage = 100;
-    public Sword(){
+    //String name = super();
+    public Swo
+        
+        damage = dmg;
         
     }
-    String name = "Sword";
+    public void attack(int x){
+        
+        
+   
     
+    }
+    public boolean parry(){
+        
+    }
 }
