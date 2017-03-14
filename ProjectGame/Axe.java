@@ -6,9 +6,15 @@
  * @version 2.23.17
  */
 public class Axe extends Weapons{
-    int damage;
+    int damage = 1000;
+    int hp = 1500;
+    public Axe(){
+        super("Axe", 1500);
+    }
     
-    public void damageDone(int dmg)
+    public void attack(int x){
+        damage = x;
+    }
         
     
    

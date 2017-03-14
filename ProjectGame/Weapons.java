@@ -15,11 +15,8 @@ public abstract class Weapons extends Item implements WeaponInterface{
       
        
     }
-    
-
     public int attack(){
         return hitpoints;
-
     }
     public boolean parry(){
         double num = Math.random()*100;
