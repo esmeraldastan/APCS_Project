@@ -11,7 +11,6 @@ public class Axe extends Weapons{
     public Axe(){
         super("Axe", 1500);
     }
-    
     public void attack(int x){
         damage = x;
     }
