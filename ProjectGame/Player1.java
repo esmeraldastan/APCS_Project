@@ -10,10 +10,11 @@ public class Player1{
     int hp = 1000;
     int damage = 50;
     public Player1(){
-        System.out.println("Player" + name);
+        System.out.println("Player: " + name);
         System.out.println("HP: " + hp);
-        System.out.println("Basic damage: "+ damage);
-       
+        System.out.println("Basic damage: "+ damage)
+    }
+    public void attack()
         
        
         
