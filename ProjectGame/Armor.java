@@ -12,6 +12,7 @@ public abstract class Armor extends Item implements DefenseCommands{
     defence = armor;
    }
    public int block(){
+       
     }
    
     
