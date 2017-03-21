@@ -7,7 +7,6 @@
  */
 public interface DefenseCommands
 {
-    
     /**
      * Block Attack Method
      * 

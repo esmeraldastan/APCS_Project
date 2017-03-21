@@ -5,14 +5,19 @@
  * @author Esmeralda
  * @version 2.27.17
  */
+import java.lang.Math;
 public abstract class Armor extends Item implements DefenseCommands{
-    int defence;
+    int defense;
     public Armor(String name, int armor){
     super(name);
-    defence = armor;
+    defense = armor;
    }
-   public int block(){
-       
+   public boolean block(){
+       double number = Math.random()* 100;//a random number
+       if (defense > number){
+           return true;
+        }
+        return false;
     }
    
     
