@@ -16,18 +16,17 @@ public class Player1{
         System.out.println("Basic damage: "+ damage);
     }
     public void attack(Enemy target){
-        //Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         target.damageTaken(damage);
         
     }
-    public
+}
+    //public
   
         
         
        
         
         
-    }
-    
    
 

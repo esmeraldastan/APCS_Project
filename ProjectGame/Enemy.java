@@ -13,7 +13,9 @@ public abstract class Enemy{
      * 3. poison plant a long the way 
      */
     int hitpoints;
-    public Enemy(int hp){//hp of the Enemy
+    String name; 
+    public Enemy(String name, int hp){//hp of the Enemy
+        this.name = name;
         hitpoints = hp;
     }
     public void damageTaken(int dmg){
