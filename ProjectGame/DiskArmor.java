@@ -5,9 +5,10 @@
  * @author Esmeralda 
  * @version 2.27.17
  */
-public class DiskAmor extends Armor{
+public class DiskArmor extends Armor{
     int defence = 500;
     public DiskArmor(){
         super("Disk Plate", 500);
   
+   }
 }
