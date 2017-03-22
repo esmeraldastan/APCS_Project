@@ -7,14 +7,14 @@
  */
 import java.lang.Math;
 public abstract class Armor extends Item implements DefenseCommands{
-    int defense;
+    int defence;
     public Armor(String name, int armor){
     super(name);
-    defense = armor;
+    defence = armor;
    }
-   public boolean block(){
+   public boolean blocked(){
        double number = Math.random()* 100;//a random number
-       if (defense > number){
+       if (defence > number){
            return true;
         }
         return false;
