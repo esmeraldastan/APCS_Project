@@ -14,11 +14,20 @@ public class Player1{
         System.out.println("Player: " + name);
         System.out.println("HP: " + hp);
         System.out.println("Basic damage: "+ damage);
+        System.out.println();
+        System.out.println();
     }
     public void attack(Enemy target){
-        Scanner input = new Scanner(System.in);
+        //Scanner input = new Scanner(System.in);
         target.damageTaken(damage);
         
+    }
+    public void damageDone(int dmg){
+        System.out.println("Attack or close?");
+        Scanner input = new Scanner(System.in);
+        if(hp == 0){
+            System.out.println("Head back");
+        }
     }
 }
     //public
