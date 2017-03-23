@@ -6,13 +6,12 @@
  * @version 3.06.17
  */
 import java.util.Scanner;
-public class Player1{
-    String name = "ChaseRekz";
-    int hp = 1000;
+public class Player1 extends Character{
     int damage = 50;
     public Player1(){
-        System.out.println("Player: " + name);
-        System.out.println("HP: " + hp);
+        super("ChaseRekz", 1000);
+        System.out.println("Player: " + this.getName());
+        System.out.println("HP: " + this.getHp());
         System.out.println("Basic damage: "+ damage);
         System.out.println();
         System.out.println();
@@ -25,7 +24,7 @@ public class Player1{
     public void damageDone(int dmg){
         System.out.println("Attack or close?");
         Scanner input = new Scanner(System.in);
-        if(hp == 0){
+        if(this.getHp() == 0){
             System.out.println("Head back");
         }
     }

@@ -1,8 +1,7 @@
 #BlueJ class context
 comment0.params=name\ hp
 comment0.target=Enemy(java.lang.String,\ int)
-comment1.params=dmg
-comment1.target=void\ damageTaken(int)
-comment2.params=
-comment2.target=int\ dmgDone()
-numComments=3
+comment0.text=\r\n\ Make\ at\ least\ 3\ different\ type\ of\ enemies\r\n\ 1.\ some\ type\ of\ creature\r\n\ 2.\ person\r\n\ 3.\ poison\ plant\ a\ long\ the\ way\ \r\n
+comment1.params=
+comment1.target=int\ dmgDone()
+numComments=2

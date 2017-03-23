@@ -2,7 +2,7 @@
 comment0.params=dmg
 comment0.target=PoisonPlant(int)
 comment1.params=target
-comment1.target=void\ strike(Enemy)
+comment1.target=void\ strike(Character)
 comment2.params=dmg
 comment2.target=void\ damageTaken(int)
 numComments=3

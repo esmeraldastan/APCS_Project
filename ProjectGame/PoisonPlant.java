@@ -12,7 +12,7 @@ public class PoisonPlant extends Enemy{
     damage = dmg; 
   }
   //target
-  public void strike( Enemy target){
+  public void strike(Character target){
       target.damageTaken(damage); 
      }
   // v2
