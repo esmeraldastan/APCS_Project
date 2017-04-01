@@ -21,16 +21,20 @@ public class Player1 extends Character{
         target.damageTaken(damage);
         
     }
+    public String getResponse(String command)
+        String response = "";
+        
+        
     public void damageDone(int dmg){
         System.out.println("Attack or close?");
+        String command = input
         Scanner input = new Scanner(System.in);
         if(this.getHp() == 0){
             System.out.println("Head back");
         }
     }
 }
-    //public
-  
+   
         
         
        
