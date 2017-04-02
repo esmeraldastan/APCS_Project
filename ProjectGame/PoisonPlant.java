@@ -7,6 +7,9 @@
  */
 public class PoisonPlant extends Enemy{
   int damage = 250;
+  /**
+   * 500
+   */
   public PoisonPlant(int dmg){
     super("Poison Plant", 500);//health
     damage = dmg; 

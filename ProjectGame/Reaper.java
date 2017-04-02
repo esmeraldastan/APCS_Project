@@ -8,7 +8,7 @@
 public class Reaper extends Enemy{
    int damage = 500;
    public Reaper(int dmg){
-       super(1000);//health
+       super("Reaper",1000);//health
        damage = dmg;
     }
     //target
