@@ -8,7 +8,7 @@
 public class PoisonPlant extends Enemy{
   int damage = 250;
   /**
-   * 500
+   * damage = 250
    */
   public PoisonPlant(int dmg){
     super("Poison Plant", 500);//health
@@ -25,9 +25,9 @@ public class PoisonPlant extends Enemy{
        
       System.out.println("Death is in the bloom!");
       System.out.println(hitpoints-damage);//current health after taking damage
-      if (hitpoints == 0){
+      if (hitpoints-damage <= 0){
             System.out.println("I'm not a harmless flower");
-            
+           
       }
       super.damageTaken(dmg);
    }

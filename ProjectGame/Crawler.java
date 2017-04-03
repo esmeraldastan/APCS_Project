@@ -7,8 +7,11 @@
  */
 public class Crawler extends Enemy{
     int damage = 300;
+    /**
+     * damage = 300
+     */
     public Crawler(int dmg){
-        super(800);//health
+        super("Crawler", 800);//health
         damage = dmg;
     }
     public void attack(Enemy target){
@@ -19,8 +22,9 @@ public class Crawler extends Enemy{
         System.out.println(hitpoints-damage);
         if(hitpoints - damage <= 0){
         System.out.println("You haven't seen the last of me");
-        super.damageTaken(dmg);
+       
       }
+       super.damageTaken(dmg);
     }
    
 }

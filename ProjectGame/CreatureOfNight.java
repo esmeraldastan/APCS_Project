@@ -7,8 +7,11 @@
  */
 public class CreatureOfNight extends Enemy{
     int damage = 550;//damage
+    /**
+     * damage = 550
+     */
     public CreatureOfNight(int dmg){
-        super(1500);//health
+        super("Creature of the Night", 1500);//health
         damage = dmg; 
     }
     //target
@@ -21,7 +24,8 @@ public class CreatureOfNight extends Enemy{
         System.out.println(hitpoints-damage);
         if(hitpoints - damage <= 0){
             System.out.println("I will be back!");
-            super.damageTaken(dmg);
+            
         }
+        super.damageTaken(dmg);
     }
 }

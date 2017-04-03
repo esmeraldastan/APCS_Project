@@ -8,7 +8,7 @@
 public class Teddy extends Enemy{
     int damage;
     public Teddy(int dmg){
-        super(400);
+        super("Teddy",400);
         damage = dmg;
     }
     public void attack(Enemy target){

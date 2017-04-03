@@ -1,6 +1,7 @@
 #BlueJ class context
 comment0.params=dmg
 comment0.target=Crawler(int)
+comment0.text=\r\n\ damage\ \=\ 300\r\n
 comment1.params=target
 comment1.target=void\ attack(Enemy)
 comment2.params=dmg
